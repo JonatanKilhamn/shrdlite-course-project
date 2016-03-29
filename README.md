@@ -56,7 +56,7 @@ There is a Makefile if you want to use the GNU Make system. Here's what it can d
 
 - `make clean`: Removes all auto-generated Javascript files
 - `make all`: Calls TypeScript for all targets
-- `make shrdlite-html.js | shrdlite-offline.js`:
+- `make shrdlite-html.js`, `make shrdlite-offline.js` etc.:
   Calls TypeScript for the given target,
   i.e., it compiles the file `shrdlite-X.ts` into `shrdlite-X.js`
 
